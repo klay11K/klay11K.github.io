@@ -25,32 +25,32 @@
     <!-- meta -->
 
 
-<title>Hexo 如何引入图片资源 | Hexo</title>
+<title>Hexo 如何部署到 github | Hexo</title>
 
 
-    <meta name="keywords" content="Hexo">
+    <meta name="keywords" content="Hexo, github">
 
 
 
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="在 Hexo&#x2F;source&#x2F; 下新建文件夹 image       在 image&#x2F; 下新建你的图片文件夹，里面放要引用的图片       MarkDown 中直接 &lt;img src&#x3D;&quot;..&#x2F;image&#x2F;xx&#x2F;xx.png&quot;&gt;引用即可">
+    <meta name="description" content="安装 hexo-deployer-git.  1npm install hexo-deployer-git --save 在 github 上新建项目，注意项目名一定要是 username.github.io，这个后续是你 Hexo 访问的域名！       配置 Hexo 根目录下的 _config.yml 文件。 1234deploy:  type: git  repo: https:&#x2F;&#x2F;g">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo 如何引入图片资源">
-<meta property="og:url" content="http://example.com/2022/12/03/Hexo/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/index.html">
+<meta property="og:title" content="Hexo 如何部署到 github">
+<meta property="og:url" content="http://example.com/2022/12/03/Hexo/Hexo%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E5%88%B0github/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="在 Hexo&#x2F;source&#x2F; 下新建文件夹 image       在 image&#x2F; 下新建你的图片文件夹，里面放要引用的图片       MarkDown 中直接 &lt;img src&#x3D;&quot;..&#x2F;image&#x2F;xx&#x2F;xx.png&quot;&gt;引用即可">
+<meta property="og:description" content="安装 hexo-deployer-git.  1npm install hexo-deployer-git --save 在 github 上新建项目，注意项目名一定要是 username.github.io，这个后续是你 Hexo 访问的域名！       配置 Hexo 根目录下的 _config.yml 文件。 1234deploy:  type: git  repo: https:&#x2F;&#x2F;g">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001030543.png">
-<meta property="og:image" content="http://example.com/image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001039388.png">
-<meta property="og:image" content="http://example.com/image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001208912.png">
-<meta property="article:published_time" content="2022-12-02T16:08:10.000Z">
-<meta property="article:modified_time" content="2022-12-02T16:14:44.388Z">
+<meta property="og:image" content="http://example.com/image/Hexo%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E5%88%B0github.assets/image-20221203014247490.png">
+<meta property="og:image" content="http://example.com/image/Hexo%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E5%88%B0github.assets/image-20221203014713107.png">
+<meta property="article:published_time" content="2022-12-02T17:33:02.000Z">
+<meta property="article:modified_time" content="2022-12-02T17:51:21.315Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="github">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001030543.png">
+<meta name="twitter:image" content="http://example.com/image/Hexo%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E5%88%B0github.assets/image-20221203014247490.png">
 
 
     
@@ -129,7 +129,7 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        Hexo 如何引入图片资源
+        Hexo 如何部署到 github
     </h1>
     <div class="post-title__meta">
         <a href="/archives/2022/12/" class="post-meta__date button">2022-12-03</a>
@@ -152,21 +152,24 @@
     <div class="post__header"></div>
     <div class="post__content">
         <ol>
-<li><p>在 Hexo/source/ 下新建文件夹 image</p>
-<p><img src="/../image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001030543.png" alt="image-20221203001030543">    </p>
+<li><p>安装 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a>.</p>
+<p><img src="/../../image/Hexo%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E5%88%B0github.assets/image-20221203014247490.png" alt="image-20221203014247490"></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+<li><p>在 github 上新建项目，<strong>注意项目名一定要是 username.github.io，这个后续是你 Hexo 访问的域名！</strong></p>
+<p><img src="/../../image/Hexo%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E5%88%B0github.assets/image-20221203014713107.png" alt="image-20221203014713107">    </p>
 </li>
-<li><p>在 image/ 下新建你的图片文件夹，里面放要引用的图片</p>
-<p><img src="/../image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001039388.png" alt="image-20221203001039388">    </p>
-</li>
-<li><p>MarkDown 中直接 <code>&lt;img src=&quot;../image/xx/xx.png&quot;&gt;</code>引用即可</p>
-<p><img src="/../image/Hexo-%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90.assets/image-20221203001208912.png" alt="image-20221203001208912">    </p>
+<li><p>配置 Hexo 根目录下的 _config.yml 文件。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/klay11K/klay11K.github.io</span> <span class="comment">#这里配置自己项目的地址即可</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></li>
+<li><p>执行命令</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g </span><br><span class="line">hexo d # 推送到 github</span><br></pre></td></tr></table></figure></li>
+<li><p>访问域名：username.github.io，我的域名是：klay11K.github.io，可以访问。</p>
 </li>
 </ol>
 
     </div>
      
     <div class="post-footer__meta"><p>updated at 2022-12-03</p></div> 
-    <div class="post-entry__tags"><a href="/tags/Hexo/" class="post-tags__link button"># Hexo</a></div> 
+    <div class="post-entry__tags"><a href="/tags/Hexo/" class="post-tags__link button"># Hexo</a><a href="/tags/github/" class="post-tags__link button"># github</a></div> 
 </article>
 
 
@@ -176,13 +179,13 @@
         </div>
         <div class="nav__next">
             
-                <a href="/2022/12/02/Hexo/Hexo-%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98/" class="nav__link">
+                <a href="/2022/12/03/Hexo/Hexo%E5%A6%82%E4%BD%95%E5%BC%95%E5%85%A5%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/" class="nav__link">
                     <div>
                         <div class="nav__label">
                             Next Post
                         </div>
                         <div class="nav__title">
-                            Hexo 修改主题
+                            Hexo 如何引入图片资源
                         </div>
                     </div>
                     <div>
